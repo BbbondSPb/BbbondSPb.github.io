@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Medium.eot');
+    src: url('../fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Medium.woff2') format('woff2'),
+        url('../fonts/FuturaPT-Medium.woff') format('woff'),
+        url('../fonts/futura-pt-medium.ttf') format('truetype'),
+        url('../fonts/FuturaPT-Medium.svg#FuturaPT-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Bold.eot');
+    src: url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Bold.woff2') format('woff2'),
+        url('../fonts/FuturaPT-Bold.woff') format('woff'),
+        url('../fonts/futura-pt-bold.ttf') format('truetype'),
+        url('../fonts/FuturaPT-Bold.svg#FuturaPT-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Extra';
+    src: url('../fonts/FuturaPT-ExtraBold.eot');
+    src: url('../fonts/FuturaPT-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-ExtraBold.woff2') format('woff2'),
+        url('../fonts/FuturaPT-ExtraBold.woff') format('woff'),
+        url('../fonts/futura-pt-extra-bold.ttf') format('truetype'),
+        url('../fonts/FuturaPT-ExtraBold.svg#FuturaPT-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+

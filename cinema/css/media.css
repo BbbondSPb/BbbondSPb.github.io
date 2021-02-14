@@ -1,0 +1,112 @@
+@media (max-width: 1920px) {
+    .little_arrow {
+        display: inline;
+    }
+    .big_arrow {
+        display: none;
+    }
+    .show {
+        margin: 12px 30px auto auto;
+    }
+    h1 {
+        font-size: 32px;
+        margin-left: 30px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .white, .gold {
+        height: 45px;
+        width: 300px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1280px) {
+    body {
+        padding-left: 0;
+    padding-right: 0;
+    }
+    h1{
+        margin: 0 auto 20px 23px; 
+    }
+    .show {
+        
+        margin: 12px 23px auto auto;
+    }
+    .dots_wrapper {
+        display: flex;
+        justify-content: center;
+        height: 30px;
+    }
+    .dot {
+        width: 12px;
+        height: 15px;
+        margin: 10px;
+        border:  1px solid var(--main-color) ;
+        border-radius: 100%;
+        background-color: #f2f2f2;
+        font-size: 0;
+    }
+    .card {
+        display: none;
+       
+    }
+    .card_show_690 {
+        display: flex;
+        width: 50%;
+    }
+    .little_arrow {
+        display: none;
+    }
+    .buttons {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .white, .gold {
+        border:  1px solid var(--main-color) ;
+        margin: 20px 20px 0 20px;
+        width: 100%;
+    }
+    .dot_selected_690 {
+        background-color: var(--main-color);
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-wrap: wrap;
+    }
+    h1 {
+        margin: 0 auto 10px 10px; 
+        width: 100%;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .show {
+        margin: 0 auto 0 10px;
+    }
+    .hidden_320 {
+        display: none;
+    }
+    
+    .card {
+        display: none;
+    }
+    .card_show_320 {
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+    .dot_selected_690 {
+        background-color: #f2f2f2;
+    }
+    .dot_selected_320 {
+        background-color: var(--main-color);
+    }
+}
